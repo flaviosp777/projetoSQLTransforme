@@ -90,3 +90,11 @@ desc tbClientes;
 desc tbVendas;
 
 -- inserindo registro nas tabelas 
+
+insert into tbFuncionarios(nome,email,cpf,telCel,dataNasc,sexo,salario,logradouro,numero,cep,bairro,cidade,estado,siglaEst,complemento)
+	values('Flavio Cardoso','flavio.cardoso@gmail.com','123.456.789-10','98765-4321','2000/05/14','M',4500.55,'Rua linda', '12A', '04750-000', 'Santo Amaro', 'Sao Paulo', 'Sao Paulo', 'SP', 'Casa dos fundos');
+
+
+    -- visualizando os registros das tabelas
+ 
+select * from tbFuncionarios;
